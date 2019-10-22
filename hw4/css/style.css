@@ -1,0 +1,14 @@
+
+
+body{
+    background-image: url("../img/bg-cover.png");
+    background-size: cover;
+    text-transform: capitalize;
+}
+input{
+    display: block;
+}
+fieldset{
+    background-color: #fff;
+    border-radius: ;
+}

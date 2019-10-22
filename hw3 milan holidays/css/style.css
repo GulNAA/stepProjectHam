@@ -1,0 +1,60 @@
+body{
+    background-image: url("../img/bg.png");
+    width: 1366px;
+    height: 768px;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container-all{
+    text-align: left;
+    display: inline-block;
+    margin:130px  154px;
+    float: left;
+    box-sizing: content-box;
+}
+.milan-header-2{
+    font-size: 18px;
+}
+.milan-header{
+    display: inline-block;
+    font-size: 29px;
+}
+.fab{
+    font-size: 35px;
+}
+.contact{
+    text-transform: lowercase;
+}
+.body-div{
+    text-transform: capitalize;
+    display: inline-block;
+    float: left;
+    margin-right: calc(100% / 3 - 320px) ;
+}
+p{
+    color: #fff;
+    margin: 20px;
+    text-align: center;
+}
+img{
+    border: 3px solid white;
+    width: 307px;
+    height: 200px;
+    margin-top: 35px;
+}
+.footer{
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+.container{
+    text-transform: uppercase;
+
+}
+
+
+
