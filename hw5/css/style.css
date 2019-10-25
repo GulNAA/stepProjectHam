@@ -1,0 +1,95 @@
+table {
+    border: 22px solid #36445e;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arimo;
+    text-transform: uppercase;
+    color: #484848;
+}
+tr,td{
+    border: 1px solid #e0e0e0;
+    width: 310px;
+    height: 69px;
+}
+.header-text{
+    font-size: 18px;
+    font-weight: 700;
+}
+span{
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+
+}
+.t-h{
+    font-size: 24pt;
+}
+.green{
+    background-color: #89c331;
+}
+.red{
+    background-color: #f04a56;
+}
+.blue{
+    background-color: #20807c;
+}
+tbody>tr:nth-child(odd){
+    background-color: #e3e3e3;
+}
+tbody>tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tbody{
+    font-size:16px ;
+
+}
+a{
+    width: 195px;
+    height: 52px;
+    padding: 19px 44px 17px 45px;
+    color: white;
+    border-radius: 5px;
+}
+.gray-button{
+    background-color: #484848;
+    box-shadow:inset 0px -10px 0px 0px #484848;
+
+}
+.green-button{
+    background-color: #89c331;
+    box-shadow:inset 0px -10px 0px 0px #79b027;
+
+}
+.red-button{
+    background-color: #f04a56;
+    box-shadow:inset 0px -10px 0px 0px #df3a46;
+
+}
+.blue-button {
+    background-color: #20807c;
+    box-shadow:inset 0px -10px 0px 0px #16736f;
+}
+i.fa{
+    font-size: 24px;
+}
+.price{
+    font-weight: 700;
+    font-size: 60pt;
+
+
+}
+sup{
+    font-size: 24px;
+}
+sub{
+    font-size: 18pt;
+    font-weight: normal;
+    float: right;
+}
+a:hover {
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.t-h{
+    color: white;
+}
