@@ -1,0 +1,50 @@
+body{
+    background-image: url(../img/galaxy.jpg);
+    background-size: cover;
+}
+.titles{
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    bottom: 0;
+    left: 40%;
+    margin-left: -150px;
+    font-size: 350%;
+    text-align: justify;
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    transform: perspective(200px) rotateX(20deg);
+}
+.titles:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60%;
+
+}
+.titles p{
+    text-align: justify;
+    margin: 13px 0;
+    color: #feffa8;
+
+}
+.titles p.center{
+    text-align: center;
+}
+.titles a{
+    color: #feffa8;
+    text-decoration: underline;
+}
+.titles-content{
+    position: absolute;
+    color: #feffa8;
+    top: 100%;
+    animation: scroll 30s linear 1s infinite;
+}
+
+@keyframes scroll {
+    0% {top: 100%;}
+    100%{top: -150%;}
+}
