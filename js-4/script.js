@@ -1,13 +1,16 @@
-let firstName=prompt("enter your first name")
-let lastName=prompt("enter your last name")
-function createNewUser(firstName,lastName) {
-    let newUser={name:firstName, surname:lastName};}
-    function getLogin(firstName,lastName) {
-        let nickName=firstName[0] + lastName;
-        let str=nickName.toLowerCase()
-        alert(str)
+function createNewUser() {
+  let  name = prompt("Enter your Name");
+  let  surname = prompt("Enter your Surname");
+     newUser = {
+        firstName: name,
+        lastName: surname,
+
+        getLogin: function () {
+            return (this.firstName[0] + this.lastName).toLowerCase();
+        }
+
     }
+}
 
-createNewUser(firstName,lastName)
-getLogin(firstName,lastName)
-
+createNewUser();
+console.log(newUser.getLogin())

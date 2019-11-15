@@ -46,6 +46,7 @@ span{
     margin-top: 50px;
     text-transform: uppercase;
     color: white;
+    box-shadow: 0px -3px white;
 }
 .first-button{
     background-color: #18cfab;
@@ -69,6 +70,7 @@ span{
     font-size: 13px;
     text-align: right;
     padding-top: 45px;
+
 }
 a{
     text-decoration: none;
@@ -79,5 +81,6 @@ a{
 ul#list li{
     display: inline;
     padding: 10px;
+
 
 }
