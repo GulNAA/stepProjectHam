@@ -7,6 +7,6 @@ function filterBy(arr,type) {
     alert(arr)
     }
 
-filterBy([23, "hola", 45, "oi",56,"hello",584585], "")
+filterBy([23, "hola", 45, "oi",56,"hello",584585], string)
 
 

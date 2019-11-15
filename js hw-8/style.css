@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+    color: white;
+}
+#price{
+    border-radius: 5px;
+    border:1px solid black;
+    margin: 10px;
+}

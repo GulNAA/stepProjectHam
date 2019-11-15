@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Banners</title>
+    <style>
+        body{text-align: center;}
+
+        .image-to-show {
+            width: 400px;
+            height: 400px;
+        }
+
+        .images-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-left: 35%;
+
+
+        }
+        .btn{
+            width: 80px;
+            height: 50px;
+            background-color: antiquewhite;
+            margin: 5px;
+
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="images-wrapper">
+    <img src="banners/1.jpg" alt="image of game" class="image-to-show" id="1"/>
+    <img src="banners/2.jpg" alt="image of game" class="image-to-show" id="2"/>
+    <img src="banners/3.JPG" alt="image of game" class="image-to-show" id="3"/>
+    <img src="banners/4.png" alt="image of game" class="image-to-show" id="4"/>
+
+</div>
+<button class="btn stop" onclick="stopSliding()">STOP</button>
+<button class="btn resume" onclick="resumeSliding()">RESUME</button>
+
+<script src="script.js"></script>
+</body>
+</html>
